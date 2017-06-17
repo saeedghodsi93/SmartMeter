@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IOTCup</string>
+   	<string name="action_settings">Setting</string>
+   	
+    <string name="font_address">fonts/B Koodak Bold.ttf</string>   
+   	
+    <string name="login_activity_button">ورود به حساب کاربری</string>    
+    <string name="about_activity_button">درباره ما</string>
+    
+    <string name="username">Username&#8230;</string>
+    <string name="password">Password&#8230;</string>
+    <string name="login">ورود</string>
+    
+    <string name="meters_list_textView">انتخاب کنتور:</string>
+    <string name="report_type_textView">نوع گزارش:</string>
+    <string name="begin_textView">زمان شروع:</string>
+    <string name="end_textView">زمان پایان:</string>
+    <string name="show_report_button">نمایش گزارش</string>
+    
+    <string name="time_textView">زمان قرائت:</string>
+    <string name="sumActive_textView">توان مصرفی:</string>
+    <string name="sumReactive_textView">توان راکتیو مصرفی:</string>
+    <string name="L1Voltage_textView">ولتاژ فاز اول:</string>
+    <string name="L2Voltage_textView">ولتاژ فاز دوم:</string>
+    <string name="L3Voltage_textView">ولتاژ فاز سوم:</string>
+    <string name="L1Current_textView">جریان فاز اول:</string>
+    <string name="L2Current_textView">جریان فاز دوم:</string>
+    <string name="L3Current_textView">جریان فاز سوم:</string>
+    
+    <string name="xyPlot">نمودار</string>
+    
+    <string-array name="menu_buttons">
+        <item>ساعت شروع</item>
+        <item>روز شروع</item>
+        <item>ساعت پایان</item>
+        <item>روز پایان</item>
+    </string-array>
+    
+</resources>

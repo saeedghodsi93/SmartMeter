@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/margin_top"
+    android:paddingBottom="@dimen/margin_bottom"
+    android:paddingLeft="@dimen/margin_left"
+    android:paddingRight="@dimen/margin_right"
+    android:baselineAligned="false"
+    android:background="@drawable/background" >
+
+    <ListView
+        android:id="@+id/details_listView"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:divider="@android:color/transparent"
+		android:dividerHeight="10.0sp" >
+		
+    </ListView>
+
+</LinearLayout>

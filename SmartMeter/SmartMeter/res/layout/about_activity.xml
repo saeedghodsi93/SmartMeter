@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingTop="@dimen/padding_layout_top"
+	android:paddingBottom="@dimen/padding_layout_buttom" 
+	android:paddingLeft="@dimen/padding_layout_left"
+	android:paddingRight="@dimen/padding_layout_right"
+	android:orientation="vertical"
+	android:background="@drawable/background" >
+    
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<color 
+	    name="title_background_color">#FF1930</color>
+     
+    <color 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:id="@+id/text_color" 
+        name="semi_transparent">#66666666</color>
+    
+    <color 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:id="@+id/text_color" 
+        name="text_color">#EE444444</color>
+    
+     <color 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:id="@+id/background_color" 
+        name="background_color">#EEAD0E</color>
+     
+     <color 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:id="@+id/background_color" 
+        name="border_color">#EE444444</color>
+     
+</resources>

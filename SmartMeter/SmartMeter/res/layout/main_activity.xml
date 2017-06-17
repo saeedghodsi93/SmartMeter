@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" tools:context="com.example.iotcup.MainActivity$PlaceholderFragment"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingTop="@dimen/padding_layout_top"
+	android:paddingBottom="@dimen/padding_layout_buttom" 
+	android:paddingLeft="@dimen/padding_layout_left"
+	android:paddingRight="@dimen/padding_layout_right"
+ 	android:orientation="vertical"
+	android:background="@drawable/background" >
+
+	<Button
+  	    android:id="@+id/login_activity_button"
+  	    android:gravity="center"
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/height_text"
+       	android:layout_marginTop="@dimen/margin_top"
+		android:typeface="monospace"
+		android:textStyle="bold" 
+  	    android:textColor="@color/text_color"
+		android:background="@drawable/background_button"
+		android:textSize="@dimen/button_font_size"
+  	    android:text="@string/login_activity_button" />
+        
+	<Button
+  	    android:id="@+id/about_activity_button"
+  	    android:gravity="center"
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/height_text"
+       	android:layout_marginTop="@dimen/margin_between_layouts"
+       	android:layout_marginBottom="@dimen/margin_bottom"
+		android:typeface="monospace"
+		android:textStyle="bold" 
+  	    android:textColor="@color/text_color"
+		android:background="@drawable/background_button"
+		android:textSize="@dimen/button_font_size"
+  	    android:text="@string/about_activity_button" />
+	  	
+</LinearLayout>

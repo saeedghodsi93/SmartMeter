@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/padding_layout_top"
+	android:paddingBottom="@dimen/padding_layout_buttom" 
+	android:paddingLeft="@dimen/padding_layout_left"
+	android:paddingRight="@dimen/padding_layout_right"
+	android:orientation="vertical" 
+	android:background="@drawable/background_tablelayout" >
+
+	<TableRow 
+		android:id="@+id/time_TableRow"
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content" >
+
+        <TextView 
+            android:id="@+id/time_value_textView"
+            android:gravity="center|left"
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/height_text"
+            android:paddingLeft="@dimen/padding_item_left"
+            android:layout_weight="1" 
+            android:typeface="monospace"
+            android:textStyle="bold" 
+            android:textColor="@color/text_color"
+			android:textSize="@dimen/text_font_size" />
+            
+        <TextView 
+            android:id="@+id/time_name_textView"
+            android:gravity="center|right"
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/height_text"
+            android:paddingRight="@dimen/padding_item_right"
+            android:layout_weight="1" 
+            android:typeface="monospace"
+            android:textStyle="bold" 
+            android:textColor="@color/text_color"
+			android:textSize="@dimen/text_font_size"
+            android:text="@string/time_textView" />
+        
+    </TableRow>
+    
+    <TableRow 
+		android:id="@+id/sumActive_TableRow"
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content" >
+
+        <TextView 
+            android:id="@+id/sumActive_value_textView"
+            android:gravity="center|left"
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/height_text"
+            android:paddingLeft="@dimen/padding_item_left"
+            android:layout_weight="1" 
+            android:typeface="monospace"
+            android:textColor="@color/text_color"
+			android:textSize="@dimen/text_font_size" />
+            
+        <TextView 
+            android:id="@+id/sumActive_name_textView"
+            android:gravity="center|right"
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/height_text"
+            android:paddingRight="@dimen/padding_item_right"
+            android:layout_weight="1" 
+            android:typeface="monospace"
+            android:textStyle="bold" 
+            android:textColor="@color/text_color"
+			android:textSize="@dimen/text_font_size"
+            android:text="@string/sumActive_textView" />
+        
+    </TableRow>
+
+    <TableRow 
+		android:id="@+id/sumReactive_TableRow"
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content" >
+
+        <TextView 
+            android:id="@+id/sumReactive_value_textView"
+            android:gravity="center|left"
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/height_text"
+            android:paddingLeft="@dimen/padding_item_left"
+            android:layout_weight="1" 
+            android:typeface="monospace"
+            android:textColor="@color/text_color"
+			android:textSize="@dimen/text_font_size" />
+        
+        <TextView 
+            android:id="@+id/sumReactive_name_textView"
+            android:gravity="center|right"
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/height_text"
+            android:paddingRight="@dimen/padding_item_right"
+            android:layout_weight="1" 
+            android:typeface="monospace"
+            android:textStyle="bold" 
+            android:textColor="@color/text_color"
+			android:textSize="@dimen/text_font_size"
+            android:text="@string/sumReactive_textView" />
+        
+    </TableRow>
+
+    <TableRow 
+		android:id="@+id/L1Voltage_TableRow"
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content" >
+
+        <TextView 
+            android:id="@+id/L1Voltage_value_textView"
+            android:gravity="center|left"
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/height_text"
+            android:paddingLeft="@dimen/padding_item_left"
+            android:layout_weight="1" 
+            android:typeface="monospace"
+            android:textColor="@color/text_color"
+			android:textSize="@dimen/text_font_size" />
+        
+        <TextView 
+            android:id="@+id/L1Voltage_name_textView"
+            android:gravity="center|right"
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/height_text"
+            android:paddingRight="@dimen/padding_item_right"
+            android:layout_weight="1" 
+            android:typeface="monospace"
+            android:textStyle="bold" 
+            android:textColor="@color/text_color"
+			android:textSize="@dimen/text_font_size"
+            android:text="@string/L1Voltage_textView" />
+        
+    </TableRow>
+    
+    <TableRow 
+		android:id="@+id/L2Voltage_TableRow"
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content" >
+        
+        <TextView 
+            android:id="@+id/L2Voltage_value_textView"
+            android:gravity="center|left"
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/height_text"
+            android:paddingLeft="@dimen/padding_item_left"
+            android:layout_weight="1" 
+            android:typeface="monospace"
+            android:textColor="@color/text_color"
+			android:textSize="@dimen/text_font_size" />
+        
+        <TextView 
+            android:id="@+id/L2Voltage_name_textView"
+            android:gravity="center|right"
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/height_text"
+            android:paddingRight="@dimen/padding_item_right"
+            android:layout_weight="1" 
+            android:typeface="monospace"
+            android:textStyle="bold" 
+            android:textColor="@color/text_color"
+			android:textSize="@dimen/text_font_size"
+            android:text="@string/L2Voltage_textView" />
+        
+    </TableRow>
+    
+    <TableRow 
+		android:id="@+id/L3Voltage_TableRow"
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content" >
+
+        <TextView 
+            android:id="@+id/L3Voltage_value_textView"
+            android:gravity="center|left"
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/height_text"
+            android:paddingLeft="@dimen/padding_item_left"
+            android:layout_weight="1" 
+            android:typeface="monospace"
+            android:textColor="@color/text_color"
+			android:textSize="@dimen/text_font_size" />
+        
+        <TextView 
+            android:id="@+id/L3Voltage_name_textView"
+            android:gravity="center|right"
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/height_text"
+            android:paddingRight="@dimen/padding_item_right"
+            android:layout_weight="1" 
+            android:typeface="monospace"
+            android:textStyle="bold" 
+            android:textColor="@color/text_color"
+			android:textSize="@dimen/text_font_size"
+            android:text="@string/L3Voltage_textView" />
+        
+    </TableRow>
+    
+    <TableRow 
+		android:id="@+id/L1Current_TableRow"
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content" >
+
+        <TextView 
+            android:id="@+id/L1Current_value_textView"
+            android:gravity="center|left"
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/height_text"
+            android:paddingLeft="@dimen/padding_item_left"
+            android:layout_weight="1" 
+            android:typeface="monospace"
+            android:textColor="@color/text_color"
+			android:textSize="@dimen/text_font_size" />
+        
+        <TextView 
+            android:id="@+id/L1Current_name_textView"
+            android:gravity="center|right"
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/height_text"
+            android:paddingRight="@dimen/padding_item_right"
+            android:layout_weight="1" 
+            android:typeface="monospace"
+            android:textStyle="bold" 
+            android:textColor="@color/text_color"
+			android:textSize="@dimen/text_font_size"
+            android:text="@string/L1Current_textView" />
+        
+    </TableRow>
+    
+    <TableRow 
+		android:id="@+id/L2Current_TableRow"
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content" >
+
+        <TextView 
+            android:id="@+id/L2Current_value_textView"
+            android:gravity="center|left"
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/height_text"
+            android:paddingLeft="@dimen/padding_item_left"
+            android:layout_weight="1" 
+            android:typeface="monospace"
+            android:textColor="@color/text_color"
+			android:textSize="@dimen/text_font_size" />
+        
+        <TextView 
+            android:id="@+id/L2Current_name_textView"
+            android:gravity="center|right"
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/height_text"
+            android:paddingRight="@dimen/padding_item_right"
+            android:layout_weight="1" 
+            android:typeface="monospace"
+            android:textStyle="bold" 
+            android:textColor="@color/text_color"
+			android:textSize="@dimen/text_font_size"
+            android:text="@string/L2Current_textView" />
+        
+    </TableRow>
+    
+    <TableRow 
+		android:id="@+id/L3Current_TableRow"
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content" >
+
+        <TextView 
+            android:id="@+id/L3Current_value_textView"
+            android:gravity="center|left"
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/height_text"
+            android:paddingLeft="@dimen/padding_item_left"
+            android:layout_weight="1" 
+            android:typeface="monospace"
+            android:textColor="@color/text_color"
+			android:textSize="@dimen/text_font_size" />
+        
+        <TextView 
+            android:id="@+id/L3Current_name_textView"
+            android:gravity="center|right"
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/height_text"
+            android:paddingRight="@dimen/padding_item_right"
+            android:layout_weight="1" 
+            android:typeface="monospace"
+            android:textStyle="bold" 
+            android:textColor="@color/text_color"
+			android:textSize="@dimen/text_font_size"
+            android:text="@string/L3Current_textView" />
+        
+    </TableRow>
+   
+</TableLayout>

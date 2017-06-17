@@ -1,0 +1,35 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
+        <item name="android:spinnerItemStyle">@style/spinnerItemStyle</item> 
+        <item name="android:spinnerDropDownItemStyle">@style/spinnerDropDownItemStyle</item>
+    </style>
+
+    <style name="WindowTitleBackground">     
+        <item name="android:background">@color/title_background_color</item>                   
+    </style>
+    
+    <style name="spinnerItemStyle">
+        <item name="android:paddingRight">@dimen/padding_item_right</item>
+        <item name="android:paddingLeft">@dimen/padding_item_left</item>
+        <item name="android:textSize">@dimen/text_font_size</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="spinnerDropDownItemStyle">
+        <item name="android:paddingRight">@dimen/padding_item_right</item>
+        <item name="android:paddingLeft">@dimen/padding_item_left</item>
+        <item name="android:textSize">@dimen/text_font_size</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+    
+    <style name="NavigationDrawerStyle">
+    	<item name="android:textSize">@dimen/text_font_size</item>
+    	<item name="android:listPreferredItemHeightSmall">50dp</item>
+	</style>
+	
+</resources>

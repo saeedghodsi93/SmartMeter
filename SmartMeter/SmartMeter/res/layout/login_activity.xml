@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingTop="@dimen/padding_layout_top"
+	android:paddingBottom="@dimen/padding_layout_buttom" 
+	android:paddingLeft="@dimen/padding_layout_left"
+	android:paddingRight="@dimen/padding_layout_right"
+    android:orientation="vertical"
+	android:background="@drawable/background" >
+
+	<EditText
+	    android:id="@+id/username_editText"
+	    android:inputType="text"
+		android:gravity="center_vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/height_text"
+       	android:layout_marginTop="@dimen/margin_top"
+		android:paddingLeft="@dimen/padding_item_left"
+		android:paddingRight="@dimen/padding_item_right"
+		android:background="@drawable/background_edittext"
+		android:typeface="monospace"
+		android:textStyle="bold" 
+		android:textSize="@dimen/text_font_size"
+		android:hint="@string/username"
+	    android:ems="10" />
+       
+	<EditText
+	    android:id="@+id/password_editText"
+	    android:inputType="textPassword"
+		android:gravity="center_vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/height_text"
+       	android:layout_marginTop="@dimen/margin_between_layouts"
+		android:paddingLeft="@dimen/padding_item_left"
+		android:paddingRight="@dimen/padding_item_right"
+		android:typeface="monospace"
+		android:textStyle="bold" 
+		android:background="@drawable/background_edittext"
+		android:textSize="@dimen/text_font_size"
+		android:hint="@string/password"
+	    android:ems="10" />
+   
+	<Button
+	    android:id="@+id/login_button"
+  	    android:gravity="center"
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/height_text"
+       	android:layout_marginTop="@dimen/margin_between_layouts"
+       	android:layout_marginBottom="@dimen/margin_bottom"
+		android:typeface="monospace"
+		android:textStyle="bold" 
+	    android:textColor="@color/text_color"
+	    android:background="@drawable/background_button"
+		android:textSize="@dimen/button_font_size"
+   	    android:text="@string/login" />
+	
+</LinearLayout>
